@@ -1,14 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {Button, Images} from '../../../components';
+import {Images, Container, MenuPrincipal, MenuLogin} from '../../../components';
 
 export default function Nubank() {
-    return(
-        <div>
+    return (
+        <Container>
             <Images />
-            <Button ativo = {true}> ENVIAR </Button>
-        </div>
+            <MenuPrincipal />
+            <MenuLogin />
+            
+        </Container>
     );
 }
 
