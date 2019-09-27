@@ -1,8 +1,12 @@
 import React from 'react';
 
-import {Button} from '../../../components';
+import {Button, Images} from '../../../components';
+
 export default function Nubank() {
     return(
-        <Button />
+        <div>
+            <Images />
+            <Button />
+        </div>
     );
 }
