@@ -1,23 +1,28 @@
 import React from 'react';
 
 import styled from 'styled-components';
-import {ifProp} from 'styled-tools';
+// import {ifProp} from 'styled-tools';
 
 const StyledButton = styled.button`
     background: ${({bgcolor}) => bgcolor};
-    color: ${ifProp('actived', 'rgb(186, 77, 227)', '#757575')};
+    color: ${({color})=>color};
     border: none;
-    padding: 19px 32px;
+    padding: ${({padding}) => padding};
     transition: 0.5s;
+
+    margin: 0;
+
     :hover{
-        color: rgb(186, 77, 227);
+        color: #9c15ce;
         cursor: pointer;
         transition: 0.5s;
     }
 `;
 
 Button.defaultProps = {
-    bgcolor: '#FFF'
+    bgcolor: '#FFF',
+    padding: '19px 12px',
+    color: '#757575'
 }
 
 export default function Button({children, ...props}) {

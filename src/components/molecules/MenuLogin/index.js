@@ -4,8 +4,12 @@ import { Button, Container } from '../../../components';
 export default function MenuPrincipal() {
     return (
         <Container>
-            <Button> Login </Button>
-            <Button bgcolor="rgb(186, 77, 227)"> I want to join Nubank </Button>
+            <Button padding="30px 32px"> Login </Button>
+            <Button 
+                bgcolor="#9c15ce" 
+                color="#FFF"
+                padding="30px 32px"
+            > Quero ser Nubank </Button>
         </Container>
     )
 }

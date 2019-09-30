@@ -3,8 +3,8 @@ import { Button, Container} from '../../../components';
 
 export default function MenuPrincipal() {
     return (
-        <Container>
-            <Button actived> Início </Button>
+        <Container padding="0px 16px;">
+            <Button color="#9c15ce"> Início </Button>
             <Button> NuConta </Button>
             <Button> Credit Card </Button>
             <Button> Rewards </Button>
