@@ -9,7 +9,7 @@ export default function MenuPrincipal() {
             <Link href="/nubank/credit"> Credit Card </Link>
             <Link href="/nubank/rewards"> Rewards </Link>
             <Link href="/nubank/loans"> Loans </Link>
-            <Link href="/nubank/about"> About us </Link>
+            <Link> About us </Link>
         </Container>
     )
 }
