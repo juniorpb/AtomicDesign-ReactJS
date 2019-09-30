@@ -8,7 +8,7 @@ export default function MenuPrincipal() {
             <Button 
                 bgcolor="#9c15ce" 
                 color="#FFF"
-                padding="30px 32px"
+                padding="32px 32px"
             > Quero ser Nubank </Button>
         </Container>
     )
