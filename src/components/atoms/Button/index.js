@@ -7,7 +7,7 @@ const StyledButton = styled.button`
     background: ${({bgcolor}) => bgcolor};
     color: ${ifProp('actived', 'rgb(186, 77, 227)', '#757575')};
     border: none;
-    padding: 19px 32;
+    padding: 19px 32px;
     transition: 0.5s;
     :hover{
         color: rgb(186, 77, 227);
