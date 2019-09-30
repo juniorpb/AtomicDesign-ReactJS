@@ -1,15 +1,15 @@
 import React from 'react';
-import { Button, Container} from '../../../components';
+import { Link, Container} from '../../../components';
 
 export default function MenuPrincipal() {
     return (
         <Container padding="0px 16px;">
-            <Button color="#9c15ce"> Início </Button>
-            <Button> NuConta </Button>
-            <Button> Credit Card </Button>
-            <Button> Rewards </Button>
-            <Button> Loans </Button>
-            <Button> About us </Button>
+            <Link href="/nubank" color="#9c15ce"> Início </Link>
+            <Link href="/nubank/conta"> NuConta </Link>
+            <Link href="/nubank/credit"> Credit Card </Link>
+            <Link href="/nubank/rewards"> Rewards </Link>
+            <Link href="/nubank/loans"> Loans </Link>
+            <Link href="/nubank/about"> About us </Link>
         </Container>
     )
 }

@@ -16,9 +16,7 @@ const StyledContainer = styled.div`
 
 export default function Container({children, ...props}) {
 
-    return (
-        <StyledContainer {...props}> {children} </StyledContainer>
-    )
+    return <StyledContainer {...props}> {children} </StyledContainer>
 }
 
 Container.defaultProps = {
