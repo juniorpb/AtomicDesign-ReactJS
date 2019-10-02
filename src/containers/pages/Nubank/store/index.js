@@ -7,7 +7,7 @@ const INITIAL_STATE = {
 function dados(state = INITIAL_STATE, action) {
     switch(action.type) {
         case 'ADD_DADOS':
-            return {...state, data: [...state.data, action.name]};
+            return {...state, data: action.name};
         
         default:
             return state;

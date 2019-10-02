@@ -13,6 +13,7 @@ export default function MenuPrincipal() {
                 bgcolor="#9c15ce" 
                 color="#FFF"
                 padding="32px 32px"
+                href="/nubank/join"
             > Quero ser Nubank </Button>
         </Container>
     )
