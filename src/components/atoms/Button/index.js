@@ -13,7 +13,7 @@ const StyledButton = styled.button`
     margin: 0;
 
     :hover{
-        color: #9c15ce;
+        color: ${({colorH})=>colorH};;
         cursor: pointer;
         transition: 0.5s;
     }
@@ -22,7 +22,9 @@ const StyledButton = styled.button`
 Button.defaultProps = {
     bgcolor: '#FFF',
     padding: '19px 12px',
-    color: '#757575'
+    color: '#757575',
+    colorH: '#81259D'
+    
 }
 
 export default function Button({children, ...props}) {
