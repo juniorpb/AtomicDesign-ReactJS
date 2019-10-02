@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link, Container} from '../../../components';
 
-import {connect} from 'react-redux';
-import { bindActionCreators } from 'redux';
-
 export default function MenuPrincipal(props) {
     console.log("@menu", props.joinReducer)
     return (
@@ -17,22 +14,3 @@ export default function MenuPrincipal(props) {
         </Container>
     )
 }
-
-
-const mapStateProps = state => {
-    return {
-        ...state
-    }
-};
-
-const mapDispatchProps = dispatch =>
-    bindActionCreators (
-        {},
-        dispatch
-    );
-
-
-connect(
-    mapStateProps,
-    mapDispatchProps
-) (MenuPrincipal);
