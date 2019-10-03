@@ -9,12 +9,12 @@ export default function MenuPrincipal() {
     return (
         <Container>
             <Link href="/nubank/login" padding="30px 32px"> {dados} </Link>
-            <Button 
+            <Link 
                 bgcolor="#9c15ce" 
                 color="#FFF"
                 padding="32px 32px"
                 href="/nubank/join"
-            > Quero ser Nubank </Button>
+            > Quero ser Nubank </Link>
         </Container>
     )
 }

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import {useDispatch} from 'react-redux';
 
-import logo from '../../../assets/images/logo_branco.svg';
 import loginStyle from './login-style.css';
 import { Button, Header } from '../../../components';
 
@@ -25,14 +24,11 @@ export default function NubankJoin() {
 
     return (
         <div className="img-branco">
-            <a href="/nubank/">
-                <img  src={logo} width="80" />
-            </a>
-
+        
             <Header />
             <div className="login-container">
                 <form onSubmit={handleSubmit}>
-                    <h3>Juntese ao Nubank</h3>
+                    <h3>Junte-se ao Nubank</h3>
                     <input 
                         placeholder="CPF"
                         value={cpf} 
