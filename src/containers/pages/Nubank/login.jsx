@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 
 import logo from '../../../assets/images/logo_branco.svg';
-import loginStyle from './login-style.css';
+import './login-style.css';
 import { Button } from '../../../components';
 
 export default function NubankLogin() {

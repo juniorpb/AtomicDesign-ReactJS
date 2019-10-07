@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import {useDispatch} from 'react-redux';
 
-import loginStyle from './login-style.css';
+import './login-style.css';
 import { Button, Header } from '../../../components';
 
 
