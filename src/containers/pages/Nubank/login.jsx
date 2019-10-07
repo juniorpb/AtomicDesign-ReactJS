@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 
 
-import logo from '../../../assets/images/logo_branco.svg';
+import {logo} from '../../../assets/images/logo_branco.svg';
 import './login-style.css';
 import { Button } from '../../../components';
 
@@ -48,7 +49,9 @@ export default function NubankLogin() {
                         onClick={()=>{
                             console.log(111);
                         }}
-                    >CONTINUAR</Button>
+                    >
+                        CONTINUAR
+                    </Button>
                 </form>
             </div>
         </div>

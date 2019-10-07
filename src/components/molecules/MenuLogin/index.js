@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Link} from '../../../components';
+import { Container, Link} from '../../../components';
 
 import {useSelector} from 'react-redux';
 
